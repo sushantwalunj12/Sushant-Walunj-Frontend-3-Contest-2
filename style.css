@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#getData {
+    display: flex;
+    padding: 10px 18px;
+    margin: 10px auto;
+}
+.container {
+    padding: 0 15px;
+}
+table, th, td {
+    border: 2px solid grey;
+}
+td {
+    text-align: center;
+}
+td:first-child {
+    text-align: start;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
